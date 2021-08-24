@@ -199,7 +199,7 @@ hr{
 .responsibility{
   list-style-type: circle;
   text-align: left;
-  padding-left: 20%;
+  padding: 0% 20% 0% 20%;
   line-height: 3;
 }
 .space{
