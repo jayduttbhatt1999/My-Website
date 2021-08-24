@@ -1,0 +1,233 @@
+body{
+  margin: 0px;
+  text-align: center;
+  /* font-family: 'Oswald', sans-serif; */
+}
+h1{
+  /* margin: 0 auto 0 auto; */
+  /*  top right bottom left*/
+  /* also can be written like margin: 0(top, bottom) auto(right, left) */
+  margin: 50px auto 0px auto;
+  color: #66BFBF;
+  /* color: #F1ECC3; */
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+}
+h2{
+  font-family: cursive;
+  font-weight: bolder;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+th{
+  width: 200px;
+  background-color: #515E63;
+  color: #ECEFA4;
+}
+tr:nth-child(even) {
+  background-color: #F1ECC3;
+}
+td{
+  padding: 10px;
+}
+.top-container{
+  background-color: #464660;
+  padding-top: 20px;
+}
+.middle-container{
+  color: #464660;
+  font-family: 'Georama', sans-serif;
+  background-color: #C9D8B6;
+  padding: 60px 0px 0px 0px;
+}
+.second-middle-container{
+  color: #464660;
+  font-family: cursive;
+  background-color: #C9D8B6;
+}
+hr{
+  border-style: dotted none none;
+  width: 10%;
+  border-width: 5px;
+  border-color: grey;
+  margin: 50px auto 50px auto;
+
+}
+.skill-last{
+  border-style:groove  none none;
+  width: 100%;
+  border-width: 5px;
+  border-color: grey;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.bottom-container{
+  background-color: #C2FFD9;
+  padding: 50px 0px 20px;
+}
+.pro{
+  text-decoration: underline;
+}
+.pro-img{
+  height: 17%;
+  width: 17%;
+}
+.flutterandfirebase{
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.python-img{
+  width: 30%;
+  height: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.diploma{
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.bachelors{
+  width: 30%;
+  height: 30%;
+  float: right;
+  margin-right: 30px;
+}
+.program{
+  padding: 0px;
+  color: #66BFBF;
+  font-weight: normal;
+  /* color: #C9D8B6; */
+  font-size: 2.5rem;
+  font-family: 'Handlee', cursive;
+}
+.top-Cloud{
+  padding-top: 20px;
+  position: relative;
+  left: 200px;
+  /* top: 50px; */
+}
+.bottom-Cloud{
+  position: absolute;
+  left: 250px;
+}
+.desc{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.diesc{
+  padding-left: 500px;
+  padding-right: 500px;
+}
+.footer-link{
+  color: #11999E;
+}
+.skill-row{
+  width: 50%;
+  /* margin: 70px auto 70px auto; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 2;
+}
+.education-row{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  /* margin: 70px auto 70px auto; */
+  text-align: left;
+  line-height: 2;
+}
+.contact_me {
+   background: #87A8A4;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: cursive;
+   font-size: 20px;
+   font-weight: 50;
+   padding: 10px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 10px;
+}
+
+.contact_me:hover {
+   /* border: solid #87A8A4 1px; */
+   background: #D9CAB3;
+   color: #87A8A4;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.social{
+  padding: 10px;
+  line-height: 2;
+}
+.footer-link{
+  margin-left: 100px;
+  text-decoration: none;
+  color: #515E63;
+}
+.footer-link:hover{
+  text-decoration: underline;
+  color: #87A8A4;
+}
+.copyright{
+  color: black;
+  font-family: sans-serif;
+}
+.table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  line-height: 2;
+  border-radius:6px;
+
+}
+.contact{
+  font-family: 'Montserrat', sans-serif;
+}
+.diesc{
+  font-family: cursive;
+}
+.responsibility{
+  list-style-type: circle;
+  text-align: left;
+  padding-left: 350px;
+  line-height: 3;
+}
+.space{
+  border-style: none  none none;
+  width: 100%;
+  border-width: 5px;
+  border-color: grey;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.certi-row{
+  width: 60%;
+  /* margin: 70px auto 70px auto; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 2;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #87A8A4;
+}
+/* fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Style Script', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Handlee', cursive;
+
+ */
